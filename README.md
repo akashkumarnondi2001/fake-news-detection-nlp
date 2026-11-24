@@ -5,7 +5,7 @@ A machine learning classification pipeline built in Python to identify whether n
 ---
 
 ### 📊 Dataset & Preprocessing
-* **Dataset:** Kaggle Fake News Dataset (`20,800` labeled news articles — `0`: Reliable, `1`: Fake).
+* **Dataset:** [Kaggle Fake News Dataset (`train.csv`)](https://kaggle.com) — `20,800` labeled news articles (`0`: Reliable, `1`: Fake).
 * **Missing Value Handling:** Replaced null values in `title`, `author`, and `text` fields with empty strings and combined `author` + `title` into a unified `content` feature.
 * **NLP Text Cleaning:**
   * Removed non-alphabetic characters using regular expressions (`re`).
